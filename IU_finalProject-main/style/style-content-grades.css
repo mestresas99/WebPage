@@ -1,0 +1,85 @@
+/* This CSS document is used for styling the grades page content. */
+.button-holder{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.button-holder a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: var(--light_purple);
+    border-radius: var(--border_radius);
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 10px 0;
+    width: 110px;
+    margin-left: 10px;
+    color: var(--dark_blue);
+}
+.download{
+    border-radius: var(--border_radius);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100%;
+    background-color: var(--light_purple);
+    color:var(--dark_blue);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+#content h1{
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+#content a:hover{
+    color: var(--dark_blue);
+    background-color: var(--light_light_purple);
+    font-weight: bold;
+}
+
+#content h2{
+    font-size: 20px;
+    padding-top: 15px;
+}
+#content p{
+    font-weight:bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark_blue);
+}
+#content table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+}
+#content th, td{
+    border: 2px solid white;
+}
+/* Odds and evens rows have different colors */
+#content tr:nth-child(even){
+    background-color: var(--light_light_purple);
+}
+#content tr:nth-child(odd){
+    background-color: var(--light_purple);
+}
+#content th {
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: var(--dark_blue);
+    color: var(--light_purple);
+
+}
+#content td{
+    color: var(--dark_blue);
+    padding: 10px;
+}
+.download:hover{
+    background-color: var(--light_light_purple);
+    font-weight: bold;
+}

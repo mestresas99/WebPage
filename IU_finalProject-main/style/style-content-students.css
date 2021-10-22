@@ -1,0 +1,77 @@
+/* This style sheet styles the content of the students page. */
+.button-holder{
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.button-holder a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	background-color: var(--light_purple);
+	border-radius: var(--border_radius);
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	padding: 10px 0;
+	width: 110px;
+	margin-left: 10px;
+	color: var(--dark_blue);
+}
+.button-holder a:hover{
+	color: var(--dark_blue);
+	background-color: var(--light_light_purple);
+	font-weight: bold;
+}
+
+#courseTitle{
+	font-size: 26px;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+#content {
+	padding-bottom: 40px;
+	padding-right: 40px;
+}
+
+/* Styling student cards */
+.student {
+	overflow: auto;
+	padding-left: 10px;
+	padding-right: 20px;
+	background-color: var(--light_purple);
+	border-radius: var(--border_radius);
+}
+.student:hover{
+	background-color: var(--light_light_purple);
+}
+.student-container{
+	padding-bottom: 20px;
+}
+.student-info{
+	padding: 5px 5px 5px 120px;
+}
+.student-info h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--dark_blue);
+	font-size: 20px;
+	padding-bottom: 5px;	
+}
+.student-info p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding-bottom: 5px;	
+}
+.student-img {
+	padding: 5px;
+	float: left;
+}
+.student svg{
+	width: 40px;
+	height: 40px;
+	float: right;
+	cursor: pointer;
+	fill: var(--dark_blue);
+}
+.student svg:hover{
+	fill: var(--light_light_purple);
+}
